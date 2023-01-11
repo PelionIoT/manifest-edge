@@ -1,0 +1,18 @@
+<manifest>
+  <include name="default.xml" />
+
+  <remote fetch="https://github.com/PelionIoT"
+          name="PelionIoT" />
+
+  <remote fetch="https://github.com/PelionIoT"
+          name="PelionIoT" />
+
+  <remote fetch="https://github.com/"
+          name="github" />
+
+  <project name="meta-edge"
+           path="layers/meta-edge"
+           remote="petedyerarm"
+           revision="main" />
+
+</manifest>
