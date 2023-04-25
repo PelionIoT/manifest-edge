@@ -35,10 +35,12 @@ Run `repo init` to bring down the latest stable version of Repo. You must
 specify a URL for the manifest, which specifies the various repositories that
 will be placed within your working directory.
 
-To check out the latest LmP subscriber continuous release:
+To check out the latest Izuma Edge release:
 
 ```
-repo init -u https://github.com/foundriesio/lmp-manifest
+mkdir build
+cd build
+repo init -u git@github.com:PelionIoT/manifest-edge.git -m edge.xml
 ```
 
 A successful initialization will end with a message stating that Repo
@@ -74,33 +76,11 @@ repo sync -j1
 Setup Environment
 -----------------
 
-Supported **MACHINE** targets (officially tested by Foundries):
+Supported **MACHINE** targets:
 
-* am64xx-evm
-
-* apalis-imx6
-* apalis-imx6-sec
-* apalis-imx8
-* beaglebone-yocto
-* corstone700-mps3
-* freedom-u540
-* generic-arm64
-* imx6ullevk
-* imx6ullevk-sec
-* imx7ulpea-ucom
 * imx8mm-lpddr4-evk
-* imx8mm-lpddr4-evk-sec
-* imx8mp-lpddr4-evk
-* imx8mq-evk
-* intel-corei7-64
-* jetson-agx-xavier-devkit
-* n1sdp
-* qemuarm
-* qemuarm64-secureboot
-* qemuriscv64
 * raspberrypi3-64
 * raspberrypi4-64
-* stm32mp1-disco
 * uz3eg-iocc
 
 Supported image targets:
@@ -127,8 +107,3 @@ To build the LmP base console image:
 ```
 bitbake lmp-base-console-image
 ```
-
-Issues and Support
-------------------
-
-Please report any bugs, issues or suggestions at <https://support.foundries.io>.
