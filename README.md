@@ -81,7 +81,6 @@ Supported **MACHINE** targets:
 * imx8mm-lpddr4-evk
 * raspberrypi3-64
 * raspberrypi4-64
-* uz3eg-iocc
 
 Supported image targets:
 
