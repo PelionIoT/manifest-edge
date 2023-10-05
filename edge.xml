@@ -7,6 +7,6 @@
   <project name="meta-edge"
            path="layers/meta-edge"
            remote="PelionIoT"
-           revision="79757f572adc30f9ee3336c34a5b385d54adca1e" />
+           revision="f89b05dcf85cb6985052a702baaa12f29c743ed6" />
 
 </manifest>
