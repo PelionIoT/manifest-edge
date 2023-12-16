@@ -7,5 +7,5 @@
   <project name="meta-edge"
            path="layers/meta-edge"
            remote="PelionIoT"
-           revision="update-to-LmP-v91" />
+           revision="a933716daa59fb25d6aa2f542691ca6017953a0a" />
 </manifest>
