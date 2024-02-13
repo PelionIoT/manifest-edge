@@ -1,0 +1,12 @@
+<manifest>
+  <include name="default.xml" />
+
+  <remote fetch="https://github.com/PelionIoT"
+          name="PelionIoT" />
+
+  <project name="meta-mcce"
+           path="layers/meta-edge"
+           remote="PelionIoT"
+           revision="main" />
+
+</manifest>
