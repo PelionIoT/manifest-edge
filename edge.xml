@@ -1,8 +1,13 @@
 <manifest>
-  <include name="default.xml" />
-
   <remote fetch="https://github.com/PelionIoT"
           name="PelionIoT" />
+
+  <project name="poky" path="layers/poky" revision="kirkstone"/>
+
+  <project name="meta-openembedded" path="layers/meta-openembedded" revision="8609de00952d65bb813a48c535c937324efeb18a"/>
+  <project name="meta-virtualization" path="layers/meta-virtualization" revision="88327090d26955a678c6f8bd2585aad4d802f6c4"/>
+
+  <project name="meta-raspberrypi" path="layers/meta-raspberrypi" revision="e6d2ff0b0cbb925157c95b07327c2a7dc145fabe"/>
 
   <project name="meta-edge"
            path="layers/meta-edge"
