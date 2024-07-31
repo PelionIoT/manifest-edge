@@ -11,7 +11,7 @@
     <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
 
   <project name="meta-virtualization" path="layers/meta-virtualization" revision="88327090d26955a678c6f8bd2585aad4d802f6c4" remote="yocto"/>
-  <project name="meta-raspberrypi" path="layers/meta-raspberrypi" revision="e6d2ff0b0cbb925157c95b07327c2a7dc145fabe"/>
+  <project name="meta-raspberrypi" path="layers/meta-raspberrypi" revision="e6d2ff0b0cbb925157c95b07327c2a7dc145fabe" remote="yocto"/>
 
   <project name="meta-edge"
            path="layers/meta-edge"
