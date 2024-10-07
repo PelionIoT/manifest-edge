@@ -7,5 +7,5 @@
   <project name="meta-edge"
            path="layers/meta-edge"
            remote="PelionIoT"
-           revision="21cda8b27d74703e9ec7b2c6b178419fb979138c" />
+           revision="scarthgap-trial" />
 </manifest>
